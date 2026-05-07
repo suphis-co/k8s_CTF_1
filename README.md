@@ -98,12 +98,7 @@ Of via stdin:
 cat submission.txt | ./scripts/decrypt-submission.sh /pad/naar/facilitator_private.pem
 ```
 
-Voor lokaal testen kun je de echte flags tijdelijk bewaren:
 
-```bash
-./scripts/start.sh --facilitator
-cat .generated/facilitator-flags.json
-```
 
 ## Spelregels voor deelnemers
 
