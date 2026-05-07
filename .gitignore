@@ -1,0 +1,13 @@
+cat > .gitignore <<'EOF'
+.generated/
+keys/facilitator_private.pem
+*k8s-ctf-facilitator-private.pem*
+*.private.pem
+submission.txt
+submissions/
+solutions/
+*.log
+.DS_Store
+EOF
+
+*:Zone.Identifier
